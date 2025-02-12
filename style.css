@@ -35,6 +35,23 @@ body{
 }
 
 .apresentacao__conteudo__texto {
+    margin-top: 2rem;
     font-size: 24px;
     font-family: "Montserrat", serif;
+}
+
+.botoes {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    background-color: #22D4FD;
+    padding: 1rem 5rem;
+    border-radius: 10px;
+    font-family: "Montserrat", serif;
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
 }
