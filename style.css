@@ -19,10 +19,11 @@ body{
 }
 
 .container {
-    margin: 10%;
+    padding: 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 2rem;
 }
 
 .apresentacao__conteudo {
@@ -35,7 +36,7 @@ body{
 }
 
 .apresentacao__conteudo__texto {
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 24px;
     font-family: "Montserrat", serif;
 }
@@ -54,4 +55,15 @@ body{
     color: #000000;
     font-weight: bold;
     font-size: 24px;
+}
+
+.container__imagem {
+    display: flex;
+    justify-content: center;
+}
+
+
+.imagem {
+    align-self: center;
+    width: 600px;  
 }
