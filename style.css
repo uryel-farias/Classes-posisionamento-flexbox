@@ -98,3 +98,26 @@ body{
     font-size: 1.5rem;
     text-align: center;
 }
+
+.cabecalho {
+    width: 100%;
+    padding: 5rem 0 0;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
+}
+
+.cabecalho__link {
+    font-family: "Montserrat", serif;
+    color: #F6F6F6;
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+
+.cabecalho__link:hover {
+    font-weight: bold;
+}
