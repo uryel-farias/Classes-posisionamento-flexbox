@@ -8,7 +8,7 @@
 
 
 body{
-    height: 100vh;
+    height: 100%;
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
@@ -83,4 +83,18 @@ body{
     font-size: 2rem;
     margin-top: 2rem;
     font-family: "Krona One", serif;
+}
+
+.rodape {
+    margin: 0;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: rgb(240, 240, 13);
+}
+
+.texto__rodape {
+    font-family: "Montserrat", serif;
+    color: #000000;
+    font-size: 1.5rem;
+    text-align: center;
 }
