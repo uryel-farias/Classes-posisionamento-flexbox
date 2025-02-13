@@ -22,8 +22,8 @@ body{
     padding: 10%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
+    justify-content: center;
+    gap: 10rem;
 }
 
 .apresentacao__conteudo {
@@ -44,7 +44,9 @@ body{
 .botoes {
     margin-top: 2rem;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
 
 .link {
@@ -66,4 +68,10 @@ body{
 .imagem {
     align-self: center;
     width: 600px;  
+}
+
+.apresentacao__links {
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-family: "Krona One", serif;
 }
