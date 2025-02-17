@@ -121,3 +121,10 @@ body{
 .cabecalho__link:hover {
     font-weight: bold;
 }
+
+@media (max-width: 1500px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+}
+
