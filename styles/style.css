@@ -128,3 +128,23 @@ body{
     }
 }
 
+
+@media (max-width: 900px) {
+    .container {
+        gap: 5rem;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
+    .imagem {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding:  15% 5%;
+    }
+}
